@@ -1,7 +1,7 @@
 # AWS Single AZ VPC Setup
 ## **Description**
-### This project shows how to setup a secure AWS VPC within a single Availability Zone. The architecture includes two subnets. One public subnet and one private subnet. The public subnet hosts a web server instance accesible from the internet while private subnet private subnet host DB server instance. The VPC is attached with Internet Gateway to enable inernet access to public subnet. For private subnet internet access, NAT Gateway used. For instance level security, two Security Groups are associated with instances. For subnet level security , two NACLs are associated with two subnets. Route tables are associated to two subnets to ensure proper routing of traffic within the VPC and to the internet. 
-### This setup provides foundational AWS networking architecture.
+This project shows how to setup a secure AWS VPC within a single Availability Zone. The architecture includes two subnets. One public subnet and one private subnet. The public subnet hosts a web server instance accesible from the internet while private subnet private subnet host DB server instance. The VPC is attached with Internet Gateway to enable inernet access to public subnet. For private subnet internet access, NAT Gateway used. For instance level security, two Security Groups are associated with instances. For subnet level security , two NACLs are associated with two subnets. Route tables are associated to two subnets to ensure proper routing of traffic within the VPC and to the internet. 
+ This setup provides foundational AWS networking architecture.
 
 ## **Architecture Diagram**
 [Architectural Diagram](C:\Users\user\Desktop\cloud\PROJECT1\Architectural_Diagram.png)
