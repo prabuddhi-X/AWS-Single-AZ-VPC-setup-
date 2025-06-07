@@ -44,7 +44,7 @@ This project shows how to setup a secure AWS VPC within a single Availability Zo
 
   ## **What I learnt**
     - Understood the different between Security Groups and NACLs
-    - Experienced that even allowed port 80 on NACLs , getting updates were failed until allowing port 443
+  
   ## **Notes**
   All resources are deleted on AWS to get avoid cost
   ## **Future Improvements**
